@@ -2,7 +2,6 @@ html {
 	width: 100vw;
 	height: 100vh;
 }
-
 .tm-header{
 	position: sticky;
 	z-index: 2;
@@ -34,16 +33,14 @@ hr{
 	margin-inline-start: auto;
 	margin-inline-end: auto;
 }
-.photo{
-	background-color: #4f4f4f;
+.container{
+	background-color: #565656;
 
 }
 
 .dav{
 	display: flex;
 	justify-content:center;
-	/*padding: 15px;
-	padding: 10px 20px;*/
 	margin: 0 auto;
 	padding: 0 auto;
 
@@ -52,14 +49,33 @@ hr{
 }
 .sudoku{
 	margin-right:20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid none;
 }
+
+
+.sticker{
+	position: absolute;
+  position: absolute;
+  top: 670px;
+  left: 320px;
+  border: 1px solid none;
+}
+
+
 .serviceyellow{
 	color: yellow;
 	font-size: 30px;
 }
 .available{
+	margin-left: 15px;
 	color: white;
 	font-size: 40px;
+}
+.servicewhite{
+	color: white;
 }
 .made{
 	color: white;
@@ -74,6 +90,8 @@ hr{
 	justify-content: center;
 }
 .lastes{
+	margin: 100px;
+	/*width: 1000px;*/
 	color: white;
 	font-size: 35px;
 }
@@ -85,19 +103,26 @@ hr{
 }
 
 .feet{
-	width: 50%;
-	text-align: right;
-	background-color: grey;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	color: white;
-	height: 40px;
-	margin: 0;
+
 	font-size: 17px;
+	position:absolute;
+   bottom:0;
+   width:50%;
+   height:40px;
+   background: grey;
+   border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: right;
 
 
 }
 
-.feet p{
-	margin: 17px 0;
+.serviceoffice{
+	margin-left: 15px;
+}
+.made{
+	margin-left: 15px;
+}
+.maden{
+	margin-left: 15px;
 }
